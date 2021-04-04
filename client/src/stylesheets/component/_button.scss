@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  background: $purple;
+  color: white;
+  border: none;
+  padding: $s-size;
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: lighten($color: $purple, $amount: 10%);
+}

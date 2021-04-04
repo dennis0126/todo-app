@@ -1,0 +1,14 @@
+.task-list-summary {
+  text-align: center;
+  padding: $m-size;
+  background: white;
+}
+
+.task-list-summary__count {
+  display: block;
+  margin-bottom: $m-size;
+
+  @media (min-width: $desktop-breakpoint) {
+    float: left;
+  }
+}

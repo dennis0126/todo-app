@@ -1,0 +1,10 @@
+.task-input {
+  display: flex;
+  margin-bottom: $m-size;
+}
+
+.task-input__input {
+  flex-grow: 1;
+  margin-right: $s-size;
+  padding: 0 $m-size;
+}

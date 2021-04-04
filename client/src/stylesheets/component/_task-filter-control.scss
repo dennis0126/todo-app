@@ -1,0 +1,15 @@
+.task-filter-control__button {
+  background: none;
+  border: transparent 1px solid;
+  border-radius: 3px;
+  margin: 0 $m-size;
+
+  &:hover,
+  &:focus {
+    border: lighten($purple, 10%) 1px solid;
+  }
+}
+
+.task-filter-control__button--active {
+  border: $purple 1px solid;
+}
